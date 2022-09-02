@@ -12,12 +12,8 @@
 
   <link rel="stylesheet" href="style.css">
 
-  <script src="resources/jquery/dist/jquery.min.js"></script>
-
   <link rel="shortcut icon" href="resources/favicon.ico" type="image/x-icon">
 
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title>Dinesh Rathod</title>
 </head>
 
@@ -27,39 +23,84 @@
       <div class="brand">
         <a href="#">Dinesh Rathod</a>
       </div>
+
       <nav>
+
         <div class="nav-mobile">
           <a id="nav-toggle" href="#!"><span></span></a>
         </div>
+
         <ul class="nav-list" id="nav-list">
           <!-- Setting the links to #! will ensure that no action takes place on click. -->
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Pojects</a></li>
-          <li><a href="#contact">Contact Me</a></li>
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#about">About Me</a></li>
+          <li class="nav-item"><a href="#projects">Pojects</a></li>
+          <li class="nav-item"><a href="#contact">Contact Me</a></li>
         </ul>
+
     </div>
   </section>
 
-  <div class="container">
+  <div class="container-xl">
 
-    <div id="card">
-      <h1 id="about">Dinesh Rathod</h1>
-      <div class="image-crop">
-        <img id="avatar" src="images/profile_img.jpg"></img>
+    <div id="profile">
+
+      <div class="profile-info">
+
+        <!-- <h1 id="about">Dinesh Rathod</h1> -->
+        <div class="image-crop">
+          <img id="avatar" src="images/profile_img.jpg"></img>
+        </div>
+        <div id="bio">
+          <h2>Web Developer</h2>
+          <p>Alibag, MH 402201</p>
+          <p>Age: 18</p>
+        </div>
+
+        <div id="buttons">
+          <a href="#projects">
+            <button>Projects</button>
+          </a>
+
+          <a href="#contact">
+            <button>Contact</button>
+          </a>
+        </div>
       </div>
-      <div id="bio">
-        <p>Student | Web Developer</p>
+
+      <div class="profile-info2">
+
+        <div class="welcome-title">
+
+          <h2>
+
+            Hello there! This is Dinesh
+
+          </h2>
+          <div class="devloper">
+
+            <h3 class="devloper-title" id="devTitle">
+              <i>&ltCode&gt</i> I am
+              <span class="txt-rotate" data-period="2000"
+                data-rotate='[ "Full stack Web Developer", "Tech Enthusiast", "coder", "learner","android developer" ]'>
+              </span>
+              <i>&ltCode&gt</i>
+            </h3>
+
+          </div>
+        </div>
+
+
       </div>
 
-      <div id="buttons">
-        <a href="#projects">
-          <button>Projects</button>
-        </a>
+    </div>
+    <br>
 
-        <a href="#contact">
-          <button>Contact</button>
-        </a>
+    <!-- Skill container -->
+    <h1>Skills</h1>
+    <div class="skill-container">
+      <div class="d-flex">
+        <img src="" alt="" srcset="">
       </div>
 
     </div>
@@ -421,9 +462,6 @@
             </a>
 
           </li> -->
-
-
-
 
 
           <li class="btn btn-primary">
